@@ -1,0 +1,10 @@
+<div class="container " *ngFor="let pic of servicePic">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src={{pic.location}} alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{pic.name}}</h5>
+            <p class="card-text">{{pic.description}}</p>
+            <a href="#" (click)="increaseLike()" class="gold"><span><i class="fa fa-heart"></i></span></a>
+        </div>
+    </div>
+</div>

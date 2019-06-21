@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="form form-group">
+      <input type="text" class="input inputgroup input-group-lg" placeholder="Add a Picture Title" #pictitle />
+      <br>
+      <input type="text"  class="input inputgroup input-group-lg" placeholder="Description" #picdesc/>
+      <button class="btn-block btn-primary" (click)="update(pictitle,picdesc, btupload)" #btupload> Add Details</button>
+      <button class="btn-block btn-primary" (click)="updateWithOutPassing()" #btupload> Different Click</button>
+    </div>
+    <div class="card">
+        <div class="card-body">
+          {{pic.name}}
+          <br>
+          {{pic.type}}
+        </div>
+    </div>
+</div>

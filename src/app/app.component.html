@@ -1,0 +1,30 @@
+<header>
+  <!--  Remove dark nav  -->
+  <nav class="nav dark-nav">
+    <div class="container">
+      <div class="nav-heading">
+        <button class="toggle-nav" data-toggle="open-navbar1"><i class="fa fa-align-right"></i></button>
+        <a class="brand" href="#">PollingAPP</a>
+      </div>
+      <div class="menu" id="open-navbar1">
+        <ul class="list">
+          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><a routerLink="" href="#">Home</a></li>
+          <li routerLinkActive="active"><a routerLink="about-us" href="">About us</a></li>
+          <li routerLinkActive="active"><a routerLink="pictures-list" href="#">Pictures</a></li>
+          <!--<li><a disabled href="#">Results</a></li>-->
+          <li routerLinkActive="active"><a routerLink="profile" href="#">Profile</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="container">
+  <div class="contaner">
+    <nav class="nav nav-pills flex-column flex-sm-row">
+      <a  routerLink="news" class="flex-sm-fill text-sm-center nav-link " routerLinkActive="active" href="#">News</a>
+      <a routerLink="alerts" class="flex-sm-fill text-sm-center nav-link" routerLinkActive="active" href="#">Alert</a>
+      <a class="flex-sm-fill text-sm-center nav-link" href="#">Favs</a>
+    </nav>
+  </div>
+  <router-outlet></router-outlet>
+</div>
