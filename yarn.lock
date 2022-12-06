@@ -275,6 +275,10 @@
   dependencies:
     utilise "^2.3.5"
 
+"@fortawesome/fontawesome-free@^5.8.2":
+  version "5.15.4"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.4.tgz#ecda5712b61ac852c760d8b3c79c96adca5554e5"
+
 "@ngtools/webpack@7.3.9":
   version "7.3.9"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-7.3.9.tgz#db115dba8cc0886d8d822723be4119d3849fb4e3"
@@ -5661,13 +5665,17 @@ qjobs@^1.1.4:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/qjobs/-/qjobs-1.2.0.tgz#c45e9c61800bd087ef88d7e256423bdd49e5d071"
 
-qs@6.5.2, qs@~6.5.2:
+qs@6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
 
 qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
+
+qs@~6.5.2:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
 
 querystring-es3@^0.2.0, querystring-es3@~0.2.0:
   version "0.2.1"
